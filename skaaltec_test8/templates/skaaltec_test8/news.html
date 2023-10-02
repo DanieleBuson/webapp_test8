@@ -21,7 +21,7 @@
                 <br>
                 <br>
                 <br>
-                <h1 class="display-4" style="font-size: 60;"><b><i>News from SKAALTEC</i></b></h1>
+                <h1 class="display-4" style="font-size: 60; line-height: 1.6;"><b><i>News from SKAALTEC</i></b></h1>
                 <hr class="my-4">
                 <br>
                 <p class="lead col-xl-8 col-md-12" style="text-align: justify; text-justify: inter-word;">
@@ -56,12 +56,12 @@
         <div class="row m-4">
             {% for news in all_news %}
                 <div class="col-xl-4">
-                    <h6 class="my-2" style="color: rgb(192, 0, 14);">{{ news.news_type }}</h6>
+                    <h6 class="my-2" style="color: rgb(192, 0, 14); line-height: 1.6;">{{ news.news_type }}</h6>
                     <hr>
                     <div class="mb-4">
                         <img src="{{ news.image.url }}" class="card-img-top rounded-3" style="object-fit: cover;" height="250">
                     </div>
-                    <h5 class=""><i>{{ news.title }}</i></h5>
+                    <h5><i>{{ news.title }}</i></h5>
                     <p style="text-align: justify; text-justify: inter-word;">{{ news.description }}</p>
                     <a href="{{ news.url }}" class="btn btn-light btn-block  gradient-custom-2 text-light" target="_blank">More about it
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
