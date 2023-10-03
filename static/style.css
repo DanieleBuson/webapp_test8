@@ -111,6 +111,10 @@ input {
     text-align: justify; 
     text-justify: inter-word;
   }
+  .text-sol{
+    text-align: justify; 
+    text-justify: inter-word;
+  }
 }
 
 /* If the screen size is 600 wide or less, set the font-size of <div> to 30px */
@@ -121,5 +125,8 @@ input {
   p { font-family: Maven Pro; font-size: 18; font-style: normal; font-variant: normal; font-weight: 550; line-height: 1.2; } 
   .text{
     text-align: left;
+  }
+  .text-sol{
+    text-align: center;
   }
 }
