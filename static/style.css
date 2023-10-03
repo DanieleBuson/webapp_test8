@@ -115,6 +115,12 @@ input {
     text-align: justify; 
     text-justify: inter-word;
   }
+  .logo-resp{
+    display: none;
+  }
+  .logo-resp-opposite{
+    display: block;
+  }
 }
 
 /* If the screen size is 600 wide or less, set the font-size of <div> to 30px */
@@ -128,5 +134,11 @@ input {
   }
   .text-sol{
     text-align: center;
+  }
+  .logo-resp{
+    display: block;
+  }
+  .logo-resp-opposite{
+    display: none;
   }
 }
